@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TicTacToeGameWithFacade.Enums;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 //ResultAnalyzer class checks whether someone has won by comparing marks on board
 //with possible winning combinations like rows,columns,diagonals
