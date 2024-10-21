@@ -7,7 +7,7 @@ using TicTacToeGameWithFacade.Enums;
 using TicTacToeGameWithFacade.Exceptions;
 using TicTacToeGameWithFacade.Models;
 
-//cell class represents single square on board means it keep track of whether it is empty then marked with x or marked with o 
+//Cell class represents single square on board means it keep track of whether it is empty then marked with x or marked with o 
 //it also ensures no one can overwrite already marked cell
 
 namespace TicTacToeGameWithFacade.Models

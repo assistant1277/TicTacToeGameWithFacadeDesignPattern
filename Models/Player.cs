@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using TicTacToeGameWithFacade.Enums;
 using TicTacToeGameWithFacade.Models;
 
-//player class stores each player name and symbol which is x or o
+//Player class stores each player name and symbol which is x or o
 
 namespace TicTacToeGameWithFacade.Models
 {

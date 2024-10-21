@@ -47,7 +47,7 @@ namespace TicTacToeGameWithFacade.Services
 
         public void SwitchPlayer()
         {
-            //swap between Player 1 and Player 2
+            //swap between player 1 and player 2
             _currentPlayer = _currentPlayer == _player1 ? _player2 : _player1;
         }
 
