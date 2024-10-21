@@ -50,7 +50,9 @@ namespace TicTacToeGameWithFacade.Models
                     return ResultType.WIN;
                 }
             }
-            //if board is full and no one has won then it is draw
+            //if board is full and no one has won then it is draw means
+            //if all cells are filled then it return ResultType.DRAW means tie game
+            //if not all cells are filled then it returns ResultType.NONE means game is still ongoing
             return marks.All(mark => mark != SymbolType.EMPTY) ? ResultType.DRAW : ResultType.NONE;
         }
     }
